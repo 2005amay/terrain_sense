@@ -1,0 +1,14 @@
+# TerrainSense dependencies
+# Note: install torch/torchvision with the CPU wheel on machines without an NVIDIA GPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+streamlit
+pillow
+matplotlib
+fastapi
+uvicorn
+python-multipart
+numpy
+onnxruntime      # Render-style inference backend (preferred when available)
+onnx             # export_onnx.py validation only

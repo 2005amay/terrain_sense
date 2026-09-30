@@ -1,0 +1,10 @@
+# Environments & caches
+.venv/
+__pycache__/
+*.pyc
+
+# Training data stays local (too big for git/deploy)
+dataset/
+
+# Local artifacts
+*.log

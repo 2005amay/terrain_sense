@@ -1,0 +1,9 @@
+# TerrainSense - Render.com build dependencies
+# No PyTorch here on purpose: the model is served by ONNX Runtime
+# (~15 MB deps instead of ~2 GB, fits the 512 MB free-tier RAM limit).
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+numpy
+onnxruntime
